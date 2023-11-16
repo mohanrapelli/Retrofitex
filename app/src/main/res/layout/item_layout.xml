@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/material_dynamic_neutral40">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:id="@+id/layout1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="NAME :"
+            android:textColor="@color/white"
+            android:layout_weight="0.5"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_weight="0.5"
+            android:textColor="@color/material_dynamic_secondary100"
+            android:fontFamily="serif"
+            android:id="@+id/name1">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout1"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:id="@+id/layout2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="CODE :"
+            android:layout_weight="0.5"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:layout_weight="0.5"
+            android:textColor="@color/material_dynamic_secondary100"
+            android:id="@+id/name2">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_below="@id/layout2"
+        android:id="@+id/layout3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="REGION :"
+            android:textColor="@color/white"
+            android:layout_weight="0.5"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_weight="0.5"
+            android:fontFamily="serif"
+            android:textColor="@color/material_dynamic_secondary100"
+            android:id="@+id/name3">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
